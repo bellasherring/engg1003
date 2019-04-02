@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-int encryption(char *wordOne); //prototype
+char encryption(char *word, int N); //func prototype
 
 int main()
 {
-    char wordOne[20]={'h', 'e', 'l', 'l', 'o', '\0'}; //hello
-    
+    char word[20]={'b', 'r', 'e', 'a', 'k', '\0'}; //string is break
+    printf("%c\n", word);
     return 0;
 }
 
-int encryption(char *wordOne, char N) //function definition
+char encryption(char *word, int N) //func definition
 {
-    s
+    int encryption;
+    int word;
 }
