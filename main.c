@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int encryption(char *wordOne); //prototype
+
 int main()
 {
-    int x;
-    int w;
-    printf("this should print before you enter a number \n");
-    scanf("%d", &x);
-    printf("the number you entered is %d\n", x);
-    scanf("%d", &w);
-    printf("the other number is %d\n", w);
+    char wordOne[20]={'h', 'e', 'l', 'l', 'o', '\0'}; //hello
+    
     return 0;
+}
+
+int encryption(char *wordOne, char N) //function definition
+{
+    s
 }
